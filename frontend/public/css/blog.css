@@ -1,0 +1,70 @@
+.blog-headuvs{background: url(../images/blog-header.png) no-repeat;
+background-size: cover;height:400px;}
+.searchuvs{margin-top:-100px;}body{overflow-x:hidden;}
+
+
+.uvsnav li {padding:20px;padding-left:0;text-align:left;}
+.uvsnav a{font-size: 20px;
+color: #292A31;}
+.uvsnav a.active{border-bottom: 5px solid #292A31;}
+.buvscircle {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 30px rgb(41 42 49 / 5%);
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 50%;
+    right: 20px;
+    top: 50%;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+.buvsbutton {
+    background: #F03750;
+    border-radius: 12px;
+    color: #fff;
+    padding: 15px 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+}
+.card-title{height:160px;font-weight: bold;padding-top:40px;
+font-size: 20px;
+color: #292A31;line-height: 150%;}
+	.uvs-blog .card{background: linear-gradient(180deg, #FFFFFF 0%, #F9F9F9 100%); margin-bottom:30px;
+border-radius: 16px;border:0;}
+
+.uvs-blog .card-text{font-weight: bold;
+font-size: 16px;
+color: #292A31;margin-bottom:20px;}
+.uvs-blog{padding:100px 0;padding-bottom:0px;}
+/*--For small devices CSS--*/
+.card-img-top{height:300px;}
+@media (max-width: 1024px){
+
+.buvscircle {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 30px rgb(41 42 49 / 5%);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    right: 20px;
+    top: 50%;
+    padding: 8px;font-weight: 500;
+    text-align: center;
+    padding-top: 10px;    font-size: 14px;
+}
+.buvsbutton {
+    padding: 8px 10px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+}
+
+}
+
+@media (max-width: 767px){
+
+}

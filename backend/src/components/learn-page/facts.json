@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_learn_page_facts",
+  "info": {
+    "displayName": "facts",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

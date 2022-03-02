@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_counter_blocks",
+  "info": {
+    "displayName": "counterBlocks",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

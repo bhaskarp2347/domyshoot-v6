@@ -1,0 +1,32 @@
+{
+  "contact": {
+    "seo": {
+      "metaTitle": "Contact",
+      "metaDescription": "contact page",
+      "shareImage": null
+    }
+  },
+  "faq": {
+    "seo": {
+      "metaTitle": "FAQ",
+      "metaDescription": "FAQ page",
+      "shareImage": null
+    }
+  },
+  "home": {
+    "seo": {
+      "metaTitle": "Home",
+      "metaDescription": "home page",
+      "shareImage": null
+    }
+  },
+  "global": {
+    "siteName": "DoMyShoot",
+    "defaultSeo": {
+      "metaTitle": "Page",
+      "metaDescription": "The offcial site of do my shoot",
+      "shareImage": null
+    },
+    "favicon": null
+  }
+}

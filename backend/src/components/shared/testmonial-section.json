@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_testmonial_sections",
+  "info": {
+    "displayName": "testmonialSection",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "testimonials": {
+      "displayName": "testimonial",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial"
+    }
+  }
+}

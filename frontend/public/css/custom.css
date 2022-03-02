@@ -1,0 +1,279 @@
+.cursor-default {
+    cursor: default;
+}
+
+body .pagination {
+    margin: 50px auto;
+    display: table;
+}
+body .pagination ul {
+    margin: 0px;
+    padding: 0px;
+}
+body .pagination ul li {
+    list-style: none;
+    float: left;
+    margin: 5px 7px;
+}
+body .pagination ul li:hover{
+    opacity: 0.9;
+}
+body .pagination ul li a {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #292A31;
+    min-width: 35px;
+    height: 35px;
+    text-align: center;
+    display: -moz-inline-grid;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    align-items: center;
+}
+body .pagination ul li span.current,
+body .pagination ul li span.disabled {
+    text-decoration: none;
+    padding: 8px;
+    background: rgba(41, 42, 49, 0.1);
+    border-radius: 4px;
+    min-width: 35px;
+    height:35px;
+    text-align: center;
+    display: -moz-inline-grid;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    align-items: center;font-weight:bold;
+}
+body .pagination ul li span.disabled {
+    cursor: no-drop;
+}
+body .pagination ul li span.current {
+    color: #333;
+}
+body .pagination ul li span.current:hover,
+body .pagination ul li span.disabled:hover,
+body .pagination ul li a:hover{
+    opacity: 0.8;
+}
+body .pagination ul li:first-child a,
+body .pagination ul li:last-child a{
+    border: none;
+    line-height: 30px;
+    display: block;
+    color: #292A31;
+    padding: 5px;
+}
+
+
+body a:hover, body a:focus {
+    color: rgba(240, 55, 80, 1);
+}
+body .progress-bar-container {
+    pointer-events: none;
+}
+body .progress-bar {
+    background-color: #e3303a;
+    height: 0.5rem;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 50;
+}
+body .sec-3 .grid-title {
+    z-index: 1;
+}
+body .sec-3 .toggle-btn span{
+    right: 27px;
+}
+body .sec-3 .toggle-btn.active span{
+    right: 4px;
+}
+
+body .sec-5 .plan-features li del {
+    opacity: 0.5;
+}
+
+body .dropdownuvs {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #fff;box-shadow: 0 3px 3px rgba(38, 38, 38, 0.05);
+    min-width: calc(100% - 30px);
+    margin-left: 10px;
+}
+
+body .dropdown-item.active, body .dropdown-item:active {
+    text-decoration: none;
+    color: #fb2b3a;
+    background-color: white;
+}
+body .header nav .nav-item > .nav-link:hover {
+    color: #F03750;
+}
+body .header nav .nav-item .btn-header-menu-dd {
+    background: none;color: #292A31;
+    padding: 0.82em 1.25em !important;
+    font-weight: 600;
+}
+body .header nav .nav-item .btn-header-menu-dd.show,
+body .header nav .nav-item .btn-header-menu-dd:hover{
+    background: rgba(41, 42, 49, 0.08);
+}
+
+body .header nav .nav-item .btn-header-menu-dd::after {
+    margin-left: 0.755em;
+}
+
+.header nav .nav-item > .nav-link {
+    font-weight: 600;
+}
+@media (min-width: 992px) {
+    .header nav .nav-item {
+        margin-right: 32px;
+    }
+}
+body .header nav .nav-item .btn-header-menu-link {
+    color: rgba(240, 55, 80, 1);
+    border: 2px solid rgba(240, 55, 80, 1);
+    font-weight: 600;
+}
+body .header nav .nav-item .btn-header-menu-link:hover {
+    color: white;
+    background: linear-gradient(153.43deg, #E92640 12.5%, #E51472 87.15%);
+}
+body .header nav .nav-item .h--dd-box .dropdown-menu {
+    min-width: 300px;
+    right: 0;
+    left: auto;
+    top: 80px;
+    box-shadow: 0 3px 30px rgb(38 38 38 / 20%);
+    border-radius: 16px;
+    padding: 20px 0;
+    overflow-y: auto;
+    max-height: 400px;
+}
+body .header nav .nav-item .h--dd-box .select-title-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body .header nav .nav-item .h--dd-box .dropdown-menu .dropdown-item {
+    cursor: pointer;
+    padding: 0.45rem 1rem;
+}
+
+/* Customer stories [START]*/
+body .page-customer-stories .uvshcard .card-body{
+    padding: 30px;
+}
+body .page-customer-stories .uvs-reviewss {
+    margin-top: 90px;
+}
+body .page-customer-stories .uvs-review1 .review-wrapper{
+    padding: 75px 52px;
+}
+body .page-customer-stories .uvs-review1 .uvshcard1 .card-body{
+    padding: 60px 52px;
+}
+body .page-customer-stories img.paimg {
+    margin-left: -50px;
+}
+/* Customer stories [END]*/
+
+/* FAQ [START]*/
+body .page-faq .sec-1 form img{
+    right: 30px;
+}
+body .page-faq .search .form-floating > label {
+    padding: 0.9rem 0.75rem;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(41, 42, 49, 0.5);
+}
+body .page-faq .search .form-floating>.form-control {
+    font-size: 20px;
+    font-weight: 700;
+}
+body .page-faq .search .form-floating>.form-control:focus,
+body .page-faq .search .form-floating>.form-control:not(:placeholder-shown) {
+    padding: 1rem 0.75rem;
+    box-shadow: none;
+}
+body .page-faq .search .form-floating>.form-control:focus~label,
+body .page-faq .search .form-floating>.form-control:not(:placeholder-shown)~label,
+body .page-faq .search .form-floating>.form-select~label {
+    opacity: 0;
+    /*opacity: 1;*/
+    transform: translateY(10%);
+}
+body .page-faq .accordion-item:first-of-type .accordion-button.collapsed,
+body .page-faq .accordion-item:last-of-type .accordion-button.collapsed{
+    border-radius: 16px;
+}
+/* FAQ [END]*/
+
+body .cc-ul-list-box .nav-item {
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+}
+body .cc-ul-list-box .nav-link.active {
+    color: #292A31 !important;
+}
+body .cc-ul-list-box .nav-link {
+    background: transparent !important;
+    color: #292A31;
+    font-size: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+body .cc-ul-list-box .nav-link.active::before {
+    transform: translateX(-50%) scale(1);
+}
+body .cc-ul-list-box .nav-link::before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: #292A31;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) scale(0);
+    transition: all ease-out 0.35s;
+}
+
+/* Blog [START]*/
+body .page-blog .uvs-blog {
+    padding-top: 69px;
+}
+body .page-blog .article-card-box {
+    margin-top: 37px;
+}
+body .page-blog .article-card-box .card-title {
+    font-size: 24px;
+}
+/* Blog [END]*/
+
+/* Learn Page [START] */
+body .page-learn .tut-time {text-shadow: 0 0 18px #ffffff;}
+body .page-learn .sec-2 p {margin-top: 0}
+body .page-learn .step-btn {
+    display: block;
+    margin-bottom: 60px;
+    max-width: 147px;
+    padding: 0.92em 1.75em !important;
+    color: rgba(240, 55, 80, 1);
+    border: 2px solid rgba(240, 55, 80, 1);
+    font-weight: 600;
+}
+body .page-learn .step-btn:hover {
+    color: white;
+    background: linear-gradient(153.43deg, #E92640 12.5%, #E51472 87.15%);
+}
+/* Learn Page [END] */

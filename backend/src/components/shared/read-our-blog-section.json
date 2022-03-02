@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_read_our_blog_sections",
+  "info": {
+    "displayName": "readOurBlogSection",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "default": "Read our Blog"
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": "##",
+      "required": true
+    }
+  }
+}

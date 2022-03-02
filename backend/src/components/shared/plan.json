@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_shared_plans",
+  "info": {
+    "displayName": "plan",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string",
+      "required": true,
+      "default": "<span class=\"font-bold font-24\">USD 499.99</span> / Recharge per year"
+    },
+    "info": {
+      "type": "text",
+      "required": true
+    },
+    "features": {
+      "type": "richtext"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Start Now",
+      "required": true
+    },
+    "buttonLink": {
+      "type": "string",
+      "required": true,
+      "default": "##"
+    },
+    "belowButtonText": {
+      "type": "string",
+      "required": true,
+      "default": "Cancel any time"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "monthly",
+        "annual"
+      ],
+      "required": true,
+      "default": "monthly"
+    }
+  }
+}

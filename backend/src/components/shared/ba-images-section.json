@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_ba_images_sections",
+  "info": {
+    "displayName": "baImagesSection",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "default": "Explore what others have created"
+    },
+    "images": {
+      "displayName": "baImage",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.ba-image"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.sec-1 {
+  background: url(../images/faqbnr.png) no-repeat;
+  background-size: cover;
+}
+.sec-1 form {
+  position: relative;
+  border-radius: 16px;
+  transform: translateY(50%);
+  box-shadow: 0px 3px 30px rgba(41, 42, 49, 0.05);
+}
+@media (max-width: 767px) {
+  .sec-1 form {
+    transform: translateY(0);
+  }
+}
+.sec-1 form label {
+  transform: translateY(10%);
+}
+.sec-1 form img {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+}
+
+.sec-2 .nav-link {
+  background: transparent !important;
+  color: #292A31;
+  font-size: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+@media (max-width: 992px) {
+  .sec-2 .nav-link {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .sec-2 .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.sec-2 .nav-link::before {
+  content: "";
+  width: 50%;
+  height: 5px;
+  background: #292A31;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%) scale(0);
+  transition: all ease-out 0.35s;
+}
+.sec-2 .nav-link.active {
+  color: #292A31 !important;
+}
+.sec-2 .nav-link.active::before {
+  transform: translateX(-50%) scale(1);
+}
+.sec-2 .accordion-item {
+  background: transparent;
+  border: 0;
+  margin-bottom: 32px;
+}
+.sec-2 .accordion-button {
+  font-size: 24px;
+  font-weight: 700;
+  color: #292A31;
+  background: linear-gradient(0deg, #F9F9F9, #F9F9F9);
+  box-shadow: 0px 3px 30px rgba(41, 42, 49, 0.05);
+  border: 0px;
+  border-radius: 16px;
+  padding: 32px 36px;
+}
+.sec-2 .accordion-button::after {
+  background-image: url(../images/plus.png);
+}
+.sec-2 .accordion-button:not(.collapsed) {
+  background: linear-gradient(91.67deg, #F03750 3.05%, #EB2E83 102.43%);
+  color: #fff;
+  border-radius: 16px 16px 0 0;
+}
+.sec-2 .accordion-button:not(.collapsed)::after {
+  transform: none;
+  background-image: url(../images/minus.png);
+}
+.sec-2 .accordion-body {
+  background: linear-gradient(180deg, #F9F9F9 0%, #FFFFFF 100%);
+  border-radius: 0 0 16px 16px;
+  padding: 64px 32px;
+}
+.sec-2 .accordion-body > * {
+  font-size: 20px;
+  font-weight: 500;
+  color: #292A31;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}

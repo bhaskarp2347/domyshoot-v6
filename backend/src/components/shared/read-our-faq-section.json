@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_read_our_faq_sections",
+  "info": {
+    "displayName": "readOurFaqSection",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "default": "Read our FAQ"
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": "##",
+      "required": true
+    }
+  }
+}

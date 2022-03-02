@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_learn_page_learn_facts_sections",
+  "info": {
+    "displayName": "learnFactsSection",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    },
+    "facts": {
+      "displayName": "facts",
+      "type": "component",
+      "repeatable": true,
+      "component": "learn-page.facts"
+    }
+  }
+}

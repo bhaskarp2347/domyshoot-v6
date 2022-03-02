@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_faq_questions",
+  "info": {
+    "displayName": "faqQuestion",
+    "icon": "lightbulb",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "group": {
+      "type": "string",
+      "required": true,
+      "default": "process"
+    },
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

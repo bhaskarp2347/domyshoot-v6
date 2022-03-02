@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_app_demos",
+  "info": {
+    "displayName": "appDemo",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Want a first-hand Experience of our App?"
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "default": "Request a Demo"
+    },
+    "buttonLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

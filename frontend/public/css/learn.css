@@ -1,0 +1,189 @@
+.sec-1 {
+    background: url(../images/faqbnr.png) no-repeat;
+    background-size: cover;
+}
+
+.sec-2 {
+    padding-top: 165px;
+}
+.sec-2 .h2 {
+    line-height: 1;
+    margin-bottom: 26px;
+}
+.sec-2 p {
+    margin-top: 175px;
+}
+
+.sec-3 {
+    padding-top: 175px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F9F9F9 100%);
+}
+.sec-3 .tut-pagination .pagination {
+    margin: 150px auto 50px;
+    display: table;
+}
+.sec-3 .tut-pagination .pagination ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-3 .tut-pagination .pagination ul li {
+    list-style: none;
+    float: left;
+    margin: 5px 7px;
+}
+.sec-3 .tut-pagination .pagination ul li:hover {
+    opacity: 0.9;
+}
+.sec-3 .tut-pagination .pagination ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #292A31;
+    min-width: 35px;
+    height: 35px;
+    text-align: center;
+    display: -moz-inline-grid;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    align-items: center;
+}
+.sec-3 .tut-pagination .pagination ul li span.current,
+.sec-3 .tut-pagination .pagination ul li span.disabled {
+    text-decoration: none;
+    padding: 5px;
+    background: rgba(41, 42, 49, 0.1);
+    border-radius: 4px;
+    min-width: 35px;
+    height: 35px;
+    text-align: center;
+    display: -moz-inline-grid;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    align-items: center;
+    font-weight: bold;
+}
+.sec-3 .tut-pagination .pagination ul li span.disabled {
+    cursor: no-drop;
+}
+.sec-3 .tut-pagination .pagination ul li span.current {
+    color: #333;
+}
+.sec-3 .tut-pagination .pagination ul li span.current:hover,
+.sec-3 .tut-pagination .pagination ul li span.disabled:hover,
+.sec-3 .tut-pagination .pagination ul li a:hover {
+    opacity: 0.8;
+}
+.sec-3 .tut-pagination .pagination ul li:first-child a,
+.sec-3 .tut-pagination .pagination ul li:last-child a {
+    border: none;
+    line-height: 30px;
+    display: block;
+    color: #292A31;
+}
+.sec-3 .tut-tabs .card {
+    border: 0;
+    box-shadow: 0px 3px 30px rgba(41, 42, 49, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.sec-3 .tut-tabs .card-img {
+    position: relative;
+    border-radius: 12px 12px 0 0;
+}
+.sec-3 .tut-tabs .card-img .tut-img {
+    width: 100%;
+}
+.sec-3 .tut-tabs .card-img .tut-time {
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #292A31;
+}
+.sec-3 .tut-tabs .card-img .tut-play {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    cursor: pointer;
+}
+.sec-3 .tut-tabs .card-body {
+    padding: 30px 20px;
+}
+.sec-3 .tut-tabs .card-body .tut-title {
+    font-size: 26px;
+    height: 85px;
+}
+.sec-3 .h2 {
+    line-height: 1;
+    margin-bottom: 26px;
+}
+.sec-3 .uvsnav a {
+    font-size: 20px;
+    color: #292A31;
+}
+.sec-3 .uvsnav a.active {
+    border-bottom: 5px solid #292A31;
+}
+
+.my-165 {
+    margin-top: 165px;
+    margin-bottom: 165px;
+}
+
+.sec-4 {
+    padding-top: 165px;
+}
+.sec-4 .step {
+    margin-bottom: 60px;
+}
+
+.sec-5 .accordion-body {
+    font-size: 20px;
+    color: #292A31;
+    line-height: 1.5;
+}
+.sec-5 .accordion-body p {
+    margin-bottom: 32px;
+}
+.sec-5 .accordion-item {
+    border: 0px;
+    background: transparent;
+    margin-bottom: 3.5rem;
+}
+.sec-5 .accordion-button {
+    color: #292A31 !important;
+    background: transparent !important;
+    font-weight: 700;
+    font-size: 24px;
+    box-shadow: none !important;
+}
+.sec-5 .accordion-button::after {
+    display: none;
+}
+.sec-5 .accordion-button::before {
+    content: url(../images/blue-plus.png);
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: -9px;
+    left: -110px;
+}
+@media (max-width: 992px) {
+    .sec-5 .accordion-button::before {
+        left: -25%;
+    }
+}
+@media (max-width: 767px) {
+    .sec-5 .accordion-button::before {
+        left: -34%;
+    }
+}
+.sec-5 .accordion-button:not(.collapsed)::before {
+    content: url(../images/blue-minus.png);
+}
+
+.sec-6 {
+    background: linear-gradient(0deg, #F9F9F9, #F9F9F9);
+}

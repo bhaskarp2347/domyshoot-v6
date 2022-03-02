@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_features_page_features",
+  "info": {
+    "displayName": "feature",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    },
+    "mainButtonText": {
+      "type": "string",
+      "default": "Explore Templates",
+      "required": true
+    },
+    "mainButtonLink": {
+      "type": "string",
+      "default": "##",
+      "required": false
+    }
+  }
+}

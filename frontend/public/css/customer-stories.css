@@ -1,0 +1,105 @@
+.cs-headuvs{background: url(../images/csp.png) no-repeat;
+background-size: cover;height:400px;} 
+.searchuvs{margin-top:-100px;}body{overflow-x:hidden;}
+
+
+.uvs-blog{padding:100px 0;padding-bottom:0px;}
+
+ 
+.uvs-review .review-wrapper {background: #fff;
+    padding: 48px 48px 0;
+    position: relative;
+border-radius: 32px;}.review-info {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}.review {
+    margin-top: 28px;
+    margin-bottom: 32px;
+    position: relative;
+} .review-wrapper .quote {
+    position: absolute;
+    margin-top: -20px;
+    z-index: 0;
+} .review-img {
+    border-radius: 50%;margin-left:30px;
+    margin-right: 14px;width:70px;
+}
+
+.uvshcard{background: #F9F9F9;
+border-radius: 0px 95px 95px 0px;border:0;margin-bottom:30px;}
+.uvshcard img{height:auto;}
+.uvshcard .card-body{padding:50px;line-height: 170%;}
+.uvshcard .card-body h5{margin-top:20px;}
+.uvshcard .card-body img{position:absolute;bottom:18%;width:80px;}
+
+.uvshcard1{background: #F9F9F9;border-radius:20px;border:0;margin-bottom:30px;}
+.uvshcard1 img{height:auto;}
+.uvshcard1 .card-body{padding:30px;font-weight: 300;
+font-size: 14px;
+line-height: 170%;}
+.uvshcard1 .card-body h5{margin-top:20px;}
+img.smallquote{position: relative;
+    width: 80px!important;
+    z-index: 999;
+    left: 40px;
+    margin-top: -5%;}
+	img.smallvid{position: relative;
+    width:30px!important;
+    z-index: 999;
+    left:30px;
+    margin-top: -10%;}
+	
+.uvs-review{padding-top:120px;}
+
+.uvs-reviewss{height: 160px; 
+
+background: linear-gradient(180deg, #FFFFFF 0%, #F9F9F9 100%);
+transform: rotate(-180deg);}
+
+.uvs-review1 .review-wrapper {border: 2px solid #F03750; 
+border-radius: 16px;padding: 50px 30px;margin-bottom:30px;}
+.uvspagination1 a{text-decoration:underline;font-weight:600;
+font-size: 20px;
+line-height: 27px;}
+.uvspagination1{padding:50px 0;}
+.reviewuvssss{font-weight: 300;margin-top:60px;min-height:180px;
+font-size: 14px;
+	line-height: 170%;}
+/*--For small devices CSS--*/
+.card-img-top{height:300px;}
+.paimg{margin-top:-50px;margin-bottom:100px;}
+.custompa{padding-top:30px;}
+.pl-5 {
+    padding-left: 5%;
+}
+@media (max-width: 1024px){ 
+
+.buvscircle {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 30px rgb(41 42 49 / 5%);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    right: 20px;
+    top: 50%;
+    padding: 8px;
+    text-align: center;
+    padding-top: 10px;    font-size: 14px;
+}
+.buvsbutton {
+    padding: 8px 10px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+}
+
+}
+
+@media (max-width: 767px){
+ .h1 {
+font-size:44px;}.pl-5 {
+    padding-left: 0%;
+}
+}

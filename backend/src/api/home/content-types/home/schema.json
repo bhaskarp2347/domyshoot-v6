@@ -1,0 +1,132 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "shootYourProduct": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.gallery_section",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "happyCustomers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.counter",
+      "max": 4,
+      "min": 4,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "enhanceYourPhotos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.gallery_section",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "baImagesSection": {
+      "displayName": "baImagesSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.ba-images-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "shareYourProduct": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.counter",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "pricingSection": {
+      "displayName": "pricingSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.pricing-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "testimonialSection": {
+      "displayName": "testmonialSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.testmonial-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

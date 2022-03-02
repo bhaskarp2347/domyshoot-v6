@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_pricing_sections",
+  "info": {
+    "displayName": "pricingSection",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    },
+    "disclaimer": {
+      "type": "string",
+      "default": "*Prices in USD. Taxes may apply.",
+      "required": false
+    },
+    "plans": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::plan.plan"
+    }
+  }
+}

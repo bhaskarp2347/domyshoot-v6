@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_ba_images",
+  "info": {
+    "displayName": "baImage",
+    "icon": "dice"
+  },
+  "options": {},
+  "attributes": {
+    "before": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "after": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,178 @@
+img{
+    max-width: 100%;
+}
+.breadcrumb-item.active{font-weight:bold;color: #292A31;}
+.uvsboximg{background: url(../images/blog-d.jpg) no-repeat;
+background-size: cover;height:400px;  margin-top:30px;}
+  .uvslinksss a{font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 170%;
+color: #292A31;}
+ .uvslinksss .active{
+font-style: normal;
+font-weight: bold;
+font-size:14px;
+line-height: 170%;
+color: #292A31;}
+.bluvsinfo h1 {
+    font-weight: 700;
+    line-height: 150%;
+    font-size: 56px;
+    margin:40px 0;
+}
+.blogduvs{padding:20px;}
+
+.blogduvs{background: linear-gradient(180deg, #FFFFFF 0%, #F9F9F9 100%);}
+
+.comment-formuvs .form-control{/* Base */
+padding:20px;margin-bottom:20px;
+background: rgba(255, 255, 255, 0.95);    font-size: 14px;
+/* Base */
+
+box-shadow: 0px 3px 30px rgba(38, 38, 38, 0.05);
+border-radius: 16px;border:0;}
+.auvsdiv{margin-bottom:50px;}
+
+.textuvs h3{font-weight:700;
+font-size: 24px;
+line-height: 170%; margin-top: 50px;
+
+color: #292A31;}
+.textuvs a
+{
+color: #F03750;}
+.uvscmrinner{margin-left:5%;padding-left:5%; border-left:4px solid rgba(41, 42, 49, 0.1);}
+.uvscmr {
+    font-size: 13px;
+    line-height: 150%;
+}.uvscmr p {
+    margin: 30px 0;
+    font-size: 15px;
+    line-height: 150%;
+}.uvstext-right{text-align:right;}.linksiconss a {
+    font-size: 13px;
+
+    margin: 0 20px 0 0;
+}.box-nameuvs{width:250px;}
+.box-nameimg img{float:left;margin-right:10px;}.box-nameuvs {
+    width: 250px;
+    margin:5px 0;
+}
+.blogduvscomment a
+{
+font-size: 14px;
+line-height: 150%;
+color: #F03750;}
+.comment-formuvs .btn {
+    background: #151515;
+    opacity: 0.5;   font-size: 14px;
+    border-radius: 999px;
+    padding: 14px 40px;
+    float: right;
+}.textuvs p{font-weight: 400;margin-top:30px;
+    font-size: 16px;
+line-height: 170%;
+color: #292A31;}.textuvs{margin-bottom:20px;}.textuvs ul{font-weight: 400;margin-top:30px;
+    font-size: 16px;
+line-height: 170%;
+color: #292A31;}
+.ctitleuvs{font-weight: 700;
+font-size: 32px;
+line-height: 170%;
+text-align: justify;margin:30px 0;
+color: #292A31;}
+.uvsicons ul,  .uvslinksss ul{list-style:none;padding:0;margin:0;}
+.pagination {
+    margin: 50px auto;
+    display: table;
+}.uvsicons ul li{padding:5px 0;}
+.uvsnav li {padding:20px;padding-left:0;text-align:left;}
+.uvsnav a{font-size: 20px;
+color: #292A31;}
+.uvsnav a.active{border-bottom: 5px solid #292A31;}
+.buvscircle {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 30px rgb(41 42 49 / 5%);
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 50%;
+    right: 20px;
+    top: 50%;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+}.buvsbutton2 {
+background: linear-gradient(153.43deg, #F03750 12.5%, #EB2E83 87.15%);
+border-radius: 12px;
+    color: #fff;font-weight:normal;font-size:14px;
+    padding: 10px 30px;
+}
+
+
+.buvsbutton {
+    background: #F03750;
+    border-radius: 12px;
+    color: #fff;
+    padding: 15px 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+}
+.card-title{height:160px;font-weight: bold;padding-top:40px;
+font-size: 20px;
+color: #292A31;line-height: 150%;}
+	.uvs-blog .card{background: linear-gradient(180deg, #FFFFFF 0%, #F9F9F9 100%); margin-bottom:30px;
+border-radius: 16px;border:0;}
+
+.uvs-blog .card-text{font-weight: bold;
+font-size: 16px;
+color: #292A31;margin-bottom:20px;}
+.uvs-blog{padding:100px 0;padding-bottom:0px;}
+/*--For small devices CSS--*/
+.card-img-top{height:300px;}
+@media (max-width: 1024px){
+
+.buvscircle {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 30px rgb(41 42 49 / 5%);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50%;
+    right: 20px;
+    top: 50%;
+    padding: 8px;font-weight: 500;
+    text-align: center;
+    padding-top: 10px;    font-size: 14px;
+}
+.buvsbutton {
+    padding: 8px 10px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+}
+
+}
+
+@media (max-width: 767px){
+ .uvsicons li {
+    display: inline;
+}.uvslinksss {
+    display: none;
+}
+}
+
+
+/*
+
+*/
+
+.article-heading-bg {
+    --bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E")
+}
+.comment-avatar{
+    width: 50px;
+    border-radius: 100%;
+}
