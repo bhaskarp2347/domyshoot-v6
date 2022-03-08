@@ -201,7 +201,7 @@ const CustomerStories = ({ page }) => {
 export async function getServerSideProps({ locale: locale, query: { page: page = 1 } }) {
   // Run API calls in parallel
   const [pageRes] = await Promise.all([
-    fetchAPI("/customer-stories", {
+    fetchAPI("/customer-story", {
       locale,
       populate: ["seo", "seo.shareImage", "image", "main3stories", "main3stories.avatar", "main3stories.image", "main3stories.logo"],
     }),
